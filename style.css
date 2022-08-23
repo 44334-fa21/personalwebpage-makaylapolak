@@ -1,1 +1,65 @@
 /*Personal Web Page Style Sheet */
+* {
+  box-sizing: border-box;
+}
+
+header, nav, main, footer {
+display: block;
+}
+
+body {
+  background-color: #E2F4E5;
+  color: #087419;
+  font-family: Verdana, Arial, sans-serif;
+}
+
+header {
+  background-color: #497650;
+  color: #FFFFFF;
+  font-family: Georgia, serif;
+}
+
+h1 {
+  line-height: 200%;
+  padding-left: 1em;
+  height: 72px;
+  margin-bottom: 0;
+}
+
+
+h2 {
+  color: #076E17;
+  font-family: Georgia, serif;
+}
+
+main {
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 1px;
+  padding-top: 1em;
+  background-color: #FFFFFF;
+  margin-left: 170px;
+  display: block;
+}
+
+  main {
+    padding: 1em;
+    margin-left: 0px;
+    font size: 90%;
+  }
+
+  .contact {
+    color: #103D17;
+  }
+
+  .floatright{
+    margin:10px;
+    float:right;
+    padding-left: 10px;
+  }
+
+  .floatleft{
+    margin:10px;
+    float:left;
+    padding-right: 5px;
+  }
